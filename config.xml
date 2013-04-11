@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.mbs.cuttingedge"
+        versionCode="1" 
+        version   = "1.0">
+	
+
+
+<icon src="ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+<gap:splash src="splash.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash.png" gap:platform="android" gap:density="xhdpi" />
+
+<name>Cutting Edge App</name>
+
+<description>
+The cutting edge app has step by step instructions on how to perform the Bigen Dye. This is narrated by Amit Corso, Licensed Teacher (PA). Over the past years amit corso has been featured in several magazines publications and has been recognised as an award winning barber. Amit has taught many barbers over his 10 years of experience and is now proud to offer the cutting edge app. To help you master some the latest and more popular trends in hairstyle design whilst keeping mobile.  
+</description>
+
+<author href="https://webdrsolutions.com" email="mark@webdrsolutions.com">
+Mark Ramrattan
+</author>
+
+</widget>
