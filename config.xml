@@ -7,10 +7,10 @@
 	
 
 
-<icon src="ldpi.png" gap:platform="android" gap:density="ldpi" />
-<icon src="mdpi.png" gap:platform="android" gap:density="mdpi" />
-<icon src="hdpi.png" gap:platform="android" gap:density="hdpi" />
-<icon src="xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+<icon src="splashldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="splashmdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="splashhdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="splashxhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
 <gap:splash src="splash.png" gap:platform="android" gap:density="ldpi" />
 <gap:splash src="splash.png" gap:platform="android" gap:density="mdpi" />
