@@ -17,10 +17,10 @@
 <gap:splash src="images/splashhdpi.png" gap:platform="android" gap:density="hdpi" />
 <gap:splash src="images/splashxhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
-<name>Cutting Edge App</name>
+<name>Edge App</name>
 
 <description>
-The cutting edge app.  
+Edge app.  
 </description>
 
 <author href="https://webdrsolutions.com" email="mark@webdrsolutions.com">
