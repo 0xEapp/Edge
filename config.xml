@@ -17,7 +17,7 @@
 <gap:splash src="images/splashhdpi.png" gap:platform="android" gap:density="hdpi" />
 <gap:splash src="images/splashxhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
-<name>Edge App</name>
+<name>Cutting Edge</name>
 
 <description>
 Edge app.  
