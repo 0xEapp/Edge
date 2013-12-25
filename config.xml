@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.mbs.cuttingedge"
         versionCode="1" 
-        version   = "1.0">
+        version   = "1.1">
 	
 
 
@@ -20,10 +20,25 @@
 <name>Cutting Edge</name>
 
 <description>
-Edge app.  
+Are you a student or beginner looking to add new hairstyles to your repertoire? Have you been cutting hair professionally and want to improve your skills or discover fresh ideas? Get the Cutting Edge App now and learn the latest, most popular trends in hairstyle design!
+
+Over the past several years, Amit Corso has been featured in several hair magazines, and has been recognized as an award winning barber for his platform work. He’s also a successful business owner and licensed educator, and has taught many barbers in his 15 years of experience.
+
+Amit is now proud to offer the Cutting Edge App, a set of step-by-step instructional videos aimed to help any barber master the most popular, trendy hairstyles in the industry. Along with Amit, the app includes detailed instruction from some of the most acclaimed barbers in the country.
+
+The Cutting Edge App offers specific instructions for the following hairstyles:
+
+•Bald Fade with Comb Over (By Aaron Trimble)
+•Pompadour (By Shawn Michaels)
+•Burst Fade with Design (By Manny Montanez) 
+•Twisted Bald Fade Mo Hawk (By Moody Jaber)
+•Bigen Wide Beard with Bald Temple Fade (By Devan “The Hair Tech”)
+•Bald Fade with No Guards/Clipper Over Comb (By Kenny Duncan)
+
+The initial release of the Cutting Edge App includes the 6 hairstyles above. An updated version will be coming in the near future that includes 4 more hairstyles and a bonus video. 
 </description>
 
-<author href="https://webdrsolutions.com" email="mark@webdrsolutions.com">
+<author href="https://webdoctorsolutions.com" email="mark@webdoctorsolutions.com">
 Mark Ramrattan
 </author>
 
