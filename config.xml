@@ -17,6 +17,8 @@
 <gap:splash src="images/splashhdpi.png" gap:platform="android" gap:density="hdpi" />
 <gap:splash src="images/splashxhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
+<preference name="load-url-timeout" value="60000" />
+
 <name>Cutting Edge</name>
 
 <description>
