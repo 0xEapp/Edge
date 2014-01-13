@@ -2,7 +2,7 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.mbs.cuttingedge"
-        versionCode="8" 
+        versionCode="9" 
         version   = "1.6">
 	
 
@@ -18,7 +18,7 @@
 <gap:splash src="images/splashxhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
 <preference name="load-url-timeout" value="60000" />
-<preference name="phonegap-version" value="3.0.0" />
+<preference name="phonegap-version" value="3.1.0" />
 
 <name>Cutting Edge</name>
 
