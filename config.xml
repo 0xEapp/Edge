@@ -6,7 +6,7 @@
         version   = "1.7">
 	
 
-
+ <preference name="phonegap-version" value="3.6.3" />
 <icon src="images/ldpi.png" gap:platform="android" gap:density="ldpi" />
 <icon src="images/mdpi.png" gap:platform="android" gap:density="mdpi" />
 <icon src="images/hdpi.png" gap:platform="android" gap:density="hdpi" />
