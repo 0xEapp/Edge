@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.mbs.cuttingedge"
-        versionCode="10" 
-        version   = "1.6">
+        versionCode="11" 
+        version   = "1.7">
 	
 
 
@@ -19,6 +19,7 @@
 
 <preference name="load-url-timeout" value="60000" />
 <preference name="phonegap-version" value="3.1.0" />
+<gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 
 <name>Cutting Edge</name>
 
@@ -26,7 +27,7 @@
 App
 </description>
 
-<author href="https://webdoctorsolutions.com" email="mark@webdoctorsolutions.com">
+<author href="http://webdoctorsolutions.com" email="mark@webdoctorsolutions.com">
 Mark Ramrattan
 </author>
 
