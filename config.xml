@@ -6,7 +6,7 @@
         version   = "1.7">
 	
 
- <preference name="phonegap-version" value="3.6.3" />
+
 <icon src="images/ldpi.png" gap:platform="android" gap:density="ldpi" />
 <icon src="images/mdpi.png" gap:platform="android" gap:density="mdpi" />
 <icon src="images/hdpi.png" gap:platform="android" gap:density="hdpi" />
@@ -18,7 +18,7 @@
 <gap:splash src="images/splashxhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
 <preference name="load-url-timeout" value="60000" />
-<preference name="phonegap-version" value="3.1.0" />
+<preference name="phonegap-version" value="3.6.3" />
 <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 
 <name>Cutting Edge</name>
