@@ -20,6 +20,7 @@
 <preference name="load-url-timeout" value="60000" />
 <preference name="phonegap-version" value="3.6.3" />
 <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
+<access origin="*.pushwoosh.com" />
 
 <name>Cutting Edge</name>
 
