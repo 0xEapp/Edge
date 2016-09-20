@@ -18,13 +18,15 @@
 <gap:splash src="images/splashxhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
 <preference name="load-url-timeout" value="60000" />
-<<<<<<< HEAD
+
 <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
-=======
-<preference name="phonegap-version" value="3.6.3" />
-<gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.4.1" />
+
+<preference name="phonegap-version" value="cli-6.3.0" />
+
+<plugin name="com.pushwoosh.plugins.pushwoosh" source="pgb" spec="3.4.1" />
+
 <access origin="*.pushwoosh.com" />
->>>>>>> origin/master
+
 
 <name>Cutting Edge</name>
 
