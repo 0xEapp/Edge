@@ -23,8 +23,8 @@
 
 <plugin name="com.pushwoosh.plugins.pushwoosh" source="pgb" spec="3.4.1" />
 
-<access origin="*.pushwoosh.com" />
-
+<access origin="*"/> <!-- allow all pages, use for development -->
+<access origin="*.pushwoosh.com"/> <!-- allow pushwoosh service -->
 
 <name>Cutting Edge</name>
 
