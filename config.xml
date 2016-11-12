@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.mbs.cuttingedge"
-        versionCode="14" 
-        version   = "1.8">
+        versionCode="15" 
+        version   = "1.9">
 	
 
 
@@ -17,14 +17,12 @@
 <gap:splash src="images/splashhdpi.png" gap:platform="android" gap:density="hdpi" />
 <gap:splash src="images/splashxhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
-<preference name="load-url-timeout" value="60000" />
+<preference name="load-url-timeout" value="100000" />
 
 <preference name="phonegap-version" value="cli-6.3.0" />
 
-<gap:plugin name="pushwoosh-pgb-plugin" source="npm" />
 
 <access origin="*"/> <!-- allow all pages, use for development -->
-<access origin="*.pushwoosh.com"/> <!-- allow pushwoosh service -->
 
 <name>Cutting Edge</name>
 
@@ -32,7 +30,7 @@
 App
 </description>
 
-<author href="http://webdoctorsolutions.com" email="mark@webdoctorsolutions.com">
+<author href="https://webdoctorsolutions.com" email="mark@webdoctorsolutions.com">
 Mark Ramrattan
 </author>
 

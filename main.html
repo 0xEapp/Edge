@@ -1,27 +1,23 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="themes/new.min.css" />
-<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+  <meta charset="utf-8" />
+  <!-- Include meta tag to ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Include jQuery Mobile stylesheets -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="themes/new.min.css">
+  <!-- Include the jQuery library -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- Include the jQuery Mobile library -->
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
 <title>Cutting Edge Android App</title>
-
-
-<link rel="stylesheet" href="jquery-mobile/jquery.mobile.structure-1.4.0.min.css" />
-<script src="jquery-mobile/jquery-1.10.2.min.js" type="text/javascript"></script>
-<script src="jquery-mobile/jquery.mobile-1.4.0.min.js" type="text/javascript"></script>
-
-<script src="pushwoosh.js" type="text/javascript"></script>
-
-
-
 </head> 
-<body onload="init();" >
+<body>
 
-
-
-<div data-role="page" id="page1" data-theme="a">
+<div data-role="page" id="page1">
 	<div data-role="header" style=" text-align:center">
      <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 		<h1>Cutting Edge App</h1>
@@ -56,13 +52,13 @@
 		</ul>		
 	</div>
 	<div data-role="footer">
-	  <h6>Version 1.8 @cuttingedgeapp</h6>
+	  <h6>Version 1.9 @cuttingedgeapp</h6>
 	</div>
 </div>
 
-<div data-role="page" id="page13" data-theme="a" style="text-align:center">
+<div data-role="page" id="page13" style="text-align:center">
 	<div data-role="header" style="overflow:hidden;">
- <a href="#page1" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page1" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
      <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 		<h1>Barbers</h1>
 	    </div>
@@ -70,25 +66,25 @@
     <div data-role="content">	
 		<ul data-role="listview" data-inset="true" data-filter="true" >
 			 
-             <li data-icon="star"><a href="#page14" data-transition="flip">Aaron Trimble</a></li>
-             <li data-icon="star"><a href="#page15" data-transition="flip">Shawn Michaels</a></li>
-             <li data-icon="star"><a href="#page16" data-transition="flip">Manny Montanez</a></li>
-             <li data-icon="star"><a href="#page17" data-transition="flip">Moody Jaber</a></li>
-             <li data-icon="star"><a href="#page18" data-transition="flip">Devan "The Hair Tech"</a></li>
-             <li data-icon="star"><a href="#page19" data-transition="flip">Kenny Duncan</a></li>
+             <li data-icon="star"><a href="#page14" data-transition="fade">Aaron Trimble</a></li>
+             <li data-icon="star"><a href="#page15" data-transition="fade">Shawn Michaels</a></li>
+             <li data-icon="star"><a href="#page16" data-transition="fade">Manny Montanez</a></li>
+             <li data-icon="star"><a href="#page17" data-transition="fade">Moody Jaber</a></li>
+             <li data-icon="star"><a href="#page18" data-transition="fade">Devan "The Hair Tech"</a></li>
+             <li data-icon="star"><a href="#page19" data-transition="fade">Kenny Duncan</a></li>
             
           
 		</ul>		
 	</div>
 	<div data-role="footer">
-		<h6>Version 1.8 @cuttingedgeapp</h6>
+		<h6>Version 1.9 @cuttingedgeapp</h6>
        
 	</div>
 </div>
 
 <div data-role="page" id="page14" data-theme="a" style="text-align:center" >
 <div data-role="header" style="overflow:hidden;">
- <a href="#page13" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page13" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
 <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 <h1>Aaron Trimble</h1>
 </div><!-- /header -->
@@ -107,14 +103,14 @@
 </div>
     
     <div data-role="footer">
-		<h6>Version 1.8 @cuttingedgeapp</h6>
+		<h6>Version 1.9 @cuttingedgeapp</h6>
        
 	</div>
     </div>
     
 <div data-role="page" id="page15" data-theme="a" style="text-align:center" >
 <div data-role="header" style="overflow:hidden;">
- <a href="#page13" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page13" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
 <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 <h1>Shawn Michaels</h1>
 </div><!-- /header -->
@@ -133,14 +129,14 @@
 </div>
     
     <div data-role="footer">
-		<h6>Version 1.8 @cuttingedgeapp</h6>
+		<h6>Version 1.9 @cuttingedgeapp</h6>
        
 	</div>
 </div>  
 
 <div data-role="page" id="page16" data-theme="a" style="text-align:center" >
 <div data-role="header" style="overflow:hidden;">
- <a href="#page13" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page13" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
 <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 <h1>Manny Montanez</h1>
 </div><!-- /header -->
@@ -159,14 +155,14 @@
 </div>
     
     <div data-role="footer">
-		<h6>Version 1.8 @cuttingedgeapp</h6>
+		<h6>Version 1.9 @cuttingedgeapp</h6>
        
 	</div>
 </div>   
 
 <div data-role="page" id="page17" data-theme="a" style="text-align:center" >
 <div data-role="header" style="overflow:hidden;">
- <a href="#page13" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page13" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
 <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 <h1>Moody Jaber</h1>
 </div><!-- /header -->
@@ -185,14 +181,14 @@
 </div>
     
     <div data-role="footer">
-		<h6>Version 1.8 @cuttingedgeapp</h6>
+		<h6>Version 1.9 @cuttingedgeapp</h6>
        
 	</div>
 </div>  
 
 <div data-role="page" id="page18" data-theme="a" style="text-align:center" >
 <div data-role="header" style="overflow:hidden;">
- <a href="#page13" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page13" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
 <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 <h1>Devan Conoscenti</h1>
 </div><!-- /header -->
@@ -211,7 +207,7 @@
 </div>
     
     <div data-role="footer">
-		<h6>Version 1.8 @cuttingedgeapp</h6>
+		<h6>Version 1.9 @cuttingedgeapp</h6>
        
 	</div>
 </div>  
@@ -219,7 +215,7 @@
 
 <div data-role="page" id="page19" data-theme="a" style="text-align:center" >
 <div data-role="header" style="overflow:hidden;">
- <a href="#page13" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page13" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
 <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 <h1>Kenny Duncan</h1>
 </div><!-- /header -->
@@ -239,7 +235,7 @@
 </div>
     
     <div data-role="footer">
-		<h6>Version 1.8 @cuttingedgeapp</h6>
+		<h6>Version 1.9 @cuttingedgeapp</h6>
        
 	</div>
 </div>    
@@ -247,26 +243,26 @@
 
 <div data-role="page" id="page12" data-theme="a" style="text-align:center">
 	<div data-role="header" style="overflow:hidden;">
- <a href="#page1" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page1" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
      <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 		<h1>Cutting Edge App</h1>
 	    </div>
 	    
     <div data-role="content">	
 		<ul data-role="listview" data-inset="true" data-filter="true" >
-			 <li data-icon="star"><a href="#page2" data-transition="flip">Bigen Dye - Amit Corso</a></li>
-             <li data-icon="star"><a href="#page5" data-transition="flip">Bald Fade with Comb Over - Aaron Trimble</a></li>
-             <li data-icon="star"><a href="#page6" data-transition="flip">Pompadour - Shawn Michaels</a></li>
-             <li data-icon="star"><a href="#page7" data-transition="flip">Burst Fade with Design - Manny Montanez</a></li>
-             <li data-icon="star"><a href="#page8" data-transition="flip">Twisted Bald Fade Mo Hawk - Moody Jaber</a></li>
-             <li data-icon="star"><a href="#page9" data-transition="flip">Bigen Wide Beard - Devan "The Hair Tech"</a></li>
-             <li data-icon="star"><a href="#page10" data-transition="flip">Bald Fade with No Guards - Kenny Duncan</a></li>
-             <li data-icon="star"><a href="#page3" data-transition="slideup">Slideshow</a></li>
+			 <li data-icon="star"><a href="#page2" data-transition="fade">Bigen Dye - Amit Corso</a></li>
+             <li data-icon="star"><a href="#page5" data-transition="fade">Bald Fade with Comb Over - Aaron Trimble</a></li>
+             <li data-icon="star"><a href="#page6" data-transition="fade">Pompadour - Shawn Michaels</a></li>
+             <li data-icon="star"><a href="#page7" data-transition="fade">Burst Fade with Design - Manny Montanez</a></li>
+             <li data-icon="star"><a href="#page8" data-transition="fade">Twisted Bald Fade Mo Hawk - Moody Jaber</a></li>
+             <li data-icon="star"><a href="#page9" data-transition="fade">Bigen Wide Beard - Devan "The Hair Tech"</a></li>
+             <li data-icon="star"><a href="#page10" data-transition="fade">Bald Fade with No Guards - Kenny Duncan</a></li>
+             <li data-icon="star"><a href="#page3" data-transition="fade">Slideshow</a></li>
           
 		</ul>		
 	</div>
 	<div data-role="footer">
-		<h6>Version 1.8 @cuttingedgeapp</h6>
+		<h6>Version 1.9 @cuttingedgeapp</h6>
        
 	</div>
 </div>
@@ -277,13 +273,13 @@
 
 <div data-role="page" id="page2" data-theme="a" style="text-align:center" >
 <div data-role="header" style="overflow:hidden;">
- <a href="#page12" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
-<img style="width: 290px; height: 163px" alt="Cutting Edge" src="images/logo.png">
+ <a href="#page12" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
+<img style="width: 232; height: 118px" alt="Cutting Edge" src="images/logo.png">
 <h1>Bigen Dye Amit Corso</h1>
 </div><!-- /header -->
 	
-    <div data-role="content">
-    <iframe width="290" height="163" src="http://www.youtube.com/embed/17p741d7JUY?modestbranding=1&showinfo=0&rel=0&vq=large" allowfullscreen></iframe>
+    <div class="videoWrapper" data-role="content">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/17p741d7JUY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	
 	</div>
 	<div data-role="footer">
@@ -293,12 +289,12 @@
 
 <div data-role="page" id="page5" data-theme="a" style=" text-align:center" data-add-back-btn="true" >
 	<div data-role="header" style="overflow:hidden;">
- <a href="#page12" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page12" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
      <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 	<h1>Bald Fade with Comb Over - Aaron Trimble</h1>
 	</div>
-    <div data-role="content">
-	<iframe width="290" height="163" src="http://www.youtube.com/embed/xgLvAktws1o?modestbranding=1&showinfo=0&rel=0&vq=large" allowfullscreen></iframe>
+    <div class="videoWrapper" data-role="content">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/xgLvAktws1o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<div data-role="footer">
 	<p>@cuttingedgeapp</p>
@@ -309,13 +305,13 @@
 
 <div data-role="page" id="page6" data-theme="a" style=" text-align:center" data-add-back-btn="true" >
 	<div data-role="header" style="overflow:hidden;">
- <a href="#page12" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page12" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
      <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 	<h1>Pompadour - Shawn Michaels</h1>
 	</div>
-    <div data-role="content">
+    <div class="videoWrapper" data-role="content">
     
-    <iframe width="290" height="163" src="http://www.youtube.com/embed/Du4xb_s4wd8?modestbranding=1&showinfo=0&rel=0&vq=large" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Du4xb_s4wd8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 	</div>
 	<div data-role="footer">
@@ -326,12 +322,12 @@
 
 <div data-role="page" id="page7" data-theme="a" style=" text-align:center" data-add-back-btn="true" >
 	<div data-role="header" style="overflow:hidden;">
- <a href="#page12" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page12" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
      <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 	<h1>Burst Fade with Design - Manny Montanez</h1>
 	</div>
-    <div data-role="content">
-	<iframe width="290" height="163" src="http://www.youtube.com/embed/oUsGc-JUQrU?modestbranding=1&showinfo=0&rel=0&vq=large" allowfullscreen></iframe>
+    <div class="videoWrapper" data-role="content">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/oUsGc-JUQrU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<div data-role="footer">
 	<p>@cuttingedgeapp</p>
@@ -340,12 +336,12 @@
 
 <div data-role="page" id="page8" data-theme="a" style=" text-align:center" data-add-back-btn="true" >
 	<div data-role="header" style="overflow:hidden;">
- <a href="#page12" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page12" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
      <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 	<h1>Twisted Bald Fade Mo Hawk - Moody Jaber</h1>
 	</div>
-    <div data-role="content">
-	<iframe width="290" height="163" src="http://www.youtube.com/embed/6iHyI8cNpt0?modestbranding=1&showinfo=0&rel=0&vq=large" allowfullscreen></iframe>
+    <div class="videoWrapper" data-role="content">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/6iHyI8cNpt0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</div>
     <div data-role="footer">
 	<p>@cuttingedgeapp</p>
@@ -355,12 +351,12 @@
 
 <div data-role="page" id="page9" data-theme="a" style=" text-align:center" data-add-back-btn="true" >
 	<div data-role="header" style="overflow:hidden;">
- <a href="#page12" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page12" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
      <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 	<h1>Bigen Wide Beard - Devan "The Hair Tech"</h1>
 	</div>
-    <div data-role="content">
-	<iframe width="290" height="163" src="http://www.youtube.com/embed/hNkt8G96thA?modestbranding=1&showinfo=0&rel=0&vq=large" allowfullscreen></iframe>
+    <div class="videoWrapper" data-role="content">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hNkt8G96thA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<div data-role="footer">
 	<p>@cuttingedgeapp</p>
@@ -369,12 +365,12 @@
 
 <div data-role="page" id="page10" data-theme="a" style=" text-align:center" data-add-back-btn="true" >
 	<div data-role="header" style="overflow:hidden;">
- <a href="#page12" data-icon="arrow-l" data-transition="flip" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page12" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
      <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 	<h1>Bald Fade with No Guards - Kenny Duncan"</h1>
 	</div>
-    <div data-role="content">
-	<iframe width="290" height="163" src="http://www.youtube.com/embed/gKVHnjvQWSA?modestbranding=1&showinfo=0&rel=0&vq=large" allowfullscreen></iframe>
+    <div class="videoWrapper" data-role="content">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/gKVHnjvQWSA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	<div data-role="footer">
 	<p>@cuttingedgeapp</p>
@@ -386,12 +382,12 @@
 
 <div data-role="page" id="page3" data-theme="a" data-add-back-btn="true" style=" text-align:center">
 	<div data-role="header" style="overflow:hidden;">
- <a href="#page12" data-icon="arrow-l" data-transition="slideup" data-direction="reverse" class="ui-btn-left">Back</a>
+ <a href="#page12" data-icon="arrow-l" data-transition="fade" data-direction="reverse" class="ui-btn-left">Back</a>
      <img style="width: 232px; height: 118px" alt="Cutting Edge" src="images/logo.png">
 	<h1>Slideshow</h1>
 	</div>
-    <div data-role="content">
-	<iframe width="290" height="163" src="http://www.youtube.com/embed/W2NGqNSnOLE?modestbranding=1&showinfo=0&rel=0&vq=large" allowfullscreen> </iframe>
+    <div class="videoWrapper" data-role="content">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/W2NGqNSnOLE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</div>
     <div data-role="footer">
 	<p>@cuttingedgeapp</p>
