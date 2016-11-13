@@ -33,7 +33,6 @@
   ],
   "private": true,
   "dependencies": {
-    "jquery": "^3.1.1",
-    "jqm-flatui": "*"
+    "jquery-mobile-bower": "^1.4.5"
   }
 }

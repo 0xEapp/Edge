@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="cuttingedgeandroidapp">Cutting Edge Android App</h1>
+
+<p>New phonegap application</p>
+
+<h2 id="usage">Usage</h2>
+
+<h4 id="cuttingedge">Cutting Edge</h4>
+
+<h2 id="config.xmlconfig-xml"><a href="https://github.com/phonegap/phonegap-template-hello-world/blob/master/config.xml">config.xml</a></h2>
+
+<h4 id="android-minsdkversionandroidonly">android-minSdkVersion (Android only)</h4>
+
+<p>Minimum SDK version supported on the target device. Maximum version is blank by default.</p>
+
+<p>This template sets the minimum to <code>14</code>.</p>
+
+<pre><code>&lt;preference name=&quot;android-minSdkVersion&quot; value=&quot;14&quot; /&gt;
+</code></pre>
+
+<h4 id="ltaccess...gtall">&lt;access &#8230;&gt; (All)</h4>
+
+<p>This template defaults to wide open access.</p>
+
+<pre><code>&lt;access origin=&quot;*&quot; /&gt;
+</code></pre>
+
+<p>It is strongly encouraged that you restrict access to external resources in your application before releasing to production.</p>
+
+<p>For more information on whitelist configuration, see the <a href="https://cordova.apache.org/docs/en/dev/guide/appdev/whitelist/index.html">Cordova Whitelist Guide</a> and the <a href="http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist">Cordova Whitelist Plugin documentation</a></p>
+
+<h2 id="wwwindex.htmlindex-html"><a href="https://github.com/phonegap/phonegap-template-hello-world/blob/master/www/index.html">www/index.html</a></h2>
+
+<h4 id="contentsecuritypolicycsp">Content Security Policy (CSP)</h4>
+
+<p>The default CSP is similarly open:</p>
+
+<pre><code>&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *&quot; /&gt;
+</code></pre>
+
+<p>Much like the access tag above, you are strongly encouraged to use a more restrictive CSP in production.</p>
+
+<p>A good starting point declaration might be:</p>
+
+<pre><code>&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *&quot; /&gt;
+</code></pre>
+
+<p>For more information on the Content Security Policy, see the <a href="http://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist#content-security-policy">section on CSP in the Cordova Whitelist Plugin documentation</a>.</p>
+
+<p>Another good resource for generating a good CSP declaration is <a href="http://cspisawesome.com">CSP is Awesome</a></p>
+
+</body>
+</html>
